@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Belangrijk: voorkom dat credentials naar GitHub gaan
+config.js
+config.json
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node (als je dat gebruikt)
+node_modules/
+npm-debug.log
+
+# Tijdelijke bestanden
+*.tmp
+*.temp
+
+# Persoonlijke notities
+notes.txt
+TODO.txt
